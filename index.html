@@ -21,7 +21,7 @@
         </ul>
     </div>
     <nav id="mainNav">
-        <li id="logo"><span><img src="content/Nav/nav-images/logo.png" alt="logo" width="200px"></span></li>
+        <li id="logo"><a href="index.html"><span><img src="content/Nav/nav-images/logo.png" alt="logo" width="200px"></span></a></li>
         <ul id="mainNav_ul">
             <li class="mainNav_li"><a class="mainNav_a" href="#home">Home</a></li>
             <li class="mainNav_li"><a class="mainNav_a" href="#linkMain">Main Content</a></li>
@@ -30,7 +30,6 @@
         </ul>
         <span id="menuImg"><img src="content/Nav/nav-images/menu.png" alt="menuImg" width="50px" onclick="openMobileMenu()"></span>
     </nav>
-
     <div id="home">
         <div id="home-text">
             RESUELVE TRIANGULOS OBLICUANGULOS USANDO...<br><br>
@@ -67,6 +66,7 @@
                 <br>
                 <p onclick="resolveTriangle_popUp(this)" class="mainContent_popUp-resolve" id="senos">Resolver Usando Ley de Senos</p>
             </div>
+            <div id="popUp_resolverTriangle"></div>
             <div class="mainContent_section" id="mainContent_second-section">
                 <div class="rectangle"></div>
                 <p class="mainContent_title">Resolver Triángulo Oblicuángulo Por Ley de Cosenos</p>
@@ -125,6 +125,6 @@
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <script src="content/Nav/nav.js"></script>
-    <script src="content/Home/home.js"></script>
+    <script src="content/Main/main.js"></script>
 </body>
 </html>

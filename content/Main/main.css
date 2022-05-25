@@ -124,3 +124,62 @@
         width: 100px;
     }
 }
+
+#popUp_resolverTriangle{
+    display: none;
+    width: 600px;
+    height: 800px;
+    background-color: #9EF8EE;
+    margin-left: 35%;
+    margin-top: 10%;
+    position: absolute;
+    border-radius: 20px;
+}
+#white_line{
+    width: 100%;
+    background-color: #FA7F08;
+    height: 80px;
+    border-radius: 20px;
+}
+
+#closeIcon_resolveTriangle{
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.title_window_resolveTriangle{
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#formContainer{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#input_lados{
+    float: left;
+    margin-right: 100px;
+    margin-left: 30px;
+}
+#input_angulos{
+    float: left;
+}
+#btn_resolverTriangle{
+    margin-top: 50px;
+    clear:left;
+    background-color: #FA7F08;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    margin-left: 34%;
+    cursor: pointer;
+}
+#btn_resolverTriangle:hover{
+    background-color: #F29F05;
+}
